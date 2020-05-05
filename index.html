@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nalin - Radiocomunicação</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Monda&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header id="header">
+      <div class="inner-header max-width-transition">
+        <img src="assets/logo_n.png" alt="Nalin">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+        <div class="mobile-menu" onclick="showNavMobileMenu()">
+          <div class="row"></div>
+          <div class="row"></div>
+          <div class="row last-row"></div>
+        </div>
+      </div>
+    </header>
+    <div id="container-nav-mobile-menu">
+      <div id="nav-mobile-menu">
+        <nav>
+          <ul>
+            <li><a href="#" onclick="hideNavMobileMenu()">Home</a></li>
+            <li><a href="#services" onclick="hideNavMobileMenu()">Serviços</a></li>
+            <li><a href="#about" onclick="hideNavMobileMenu()">Sobre</a></li>
+            <li><a href="#contact" onclick="hideNavMobileMenu()">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="color-background"></div>
+    <div class="text-background">
+      <div class="text-field">
+        <div class="blinky-row">
+          <h1 id="writer"></h1>
+          <div id="cursor"></div>
+        </div>
+        <p id="fade-text">Nosso compromisso é garantir o máximo de frequência.</p>
+      </div>
+      <div class="options">
+        <a href="#services">Serviços</a>
+        <a href="#about">Sobre</a>
+        <a href="#contact">Contato</a>
+      </div>
+    </div>
+    <div class="parallax-background first-background"></div>
+    <section class="content" id="services">
+      <div class="inner-content">
+        <h1>Serviços</h1>
+        <div class="splitter">
+          <div class="bar"></div>
+          <i class="fas fa-broadcast-tower"></i>
+          <div class="bar"></div>
+        </div>
+        <p>A Nalin se preocupa com a máxima qualidade de serviços, suporte e satisfação do cliente, e para isso, seguimos a risca a filosofia da extrema qualidade e empenho em <u>qualquer</u> serviço.</p>
+        <div class="card-container">
+          <article class="card">
+            <img src="assets/infra.jpg" alt="Infraestrutura">
+            <div class="card-info">
+              <h1>Infraestrutura</h1>
+              <p>Toda boa implantação requer uma boa infraestrutura, pensando nisso, a Nalin sempre coloca como uma das principais prioridades prover uma boa estrutura, para que projetos melhor se adequem a todas as situações possíveis, tanto técnicas, quanto relacionadas as necessidades do cliente.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="assets/radio.jpeg" alt="Radios">
+            <div class="card-info">
+              <h1>Equipamentos</h1>
+              <p>Nossos equipamentos são de produtos de primeira qualidade para sempre tirar o máximo proveito da infraestrutura provida pela Nalin, préviamente testados e validados.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img src="assets/antenna.jpg" alt="Antena">
+            <div class="card-info">
+              <h1>Alta Disponibilidade</h1>
+              <p>Toda integração é cuidadosamente projetada para operar com o máximo de desempenho e disponibilidade de serviço possível, executada com o melhor desempenho, alcançando sempre instalações de altíssimo padrão e grande tolerância a falhas.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="color-background"></div>
+    <div class="text-background">
+      <div class="text-field">
+        <div class="blinky-row">
+          <h1>Quem somos</h1>
+        </div>
+        <p>Nossos valores nos tornam mais fortes.</p>
+      </div>
+    </div>
+    <div class="parallax-background second-background"></div>
+    <section class="content" id="about">
+      <div class="inner-content">
+        <h1>Quem Somos</h1>
+        <div class="splitter">
+          <div class="bar"></div>
+          <i class="fas fa-user-tie"></i>
+          <div class="bar"></div>
+        </div>
+        <p>Somos uma empresa de telecomunicações com vasta experiência no mercado de radiocomunicação, atuando em diversos projetos de grande valor profissional e sempre, valorizando a equipe e os valores quais a empresa foi fundada.</p>
+        <div class="pseudo-card-container">
+          <article class="pseudo-card">
+            <i class="fas fa-people-arrows"></i>
+            <h1>Equipe</h1>
+            <div class="card-bar"></div>
+            <p>Sabemos que o melhor trabalho é sempre o trabalho em equipe, por isso, a todo momento cuidamos e zelamos por nossos profissionais para que se tornem cada vez melhores.</p>
+          </article>
+          <article class="pseudo-card">
+            <i class="fas fa-satellite-dish"></i>
+            <h1>Qualidade</h1>
+            <div class="card-bar"></div>
+            <p>Sabemos que o melhor trabalho é sempre o trabalho em equipe, por isso, a todo momento cuidamos e zelamos por nossos profissionais para que se tornem cada vez melhores.</p>
+          </article>
+          <article class="pseudo-card">
+            <i class="fas fa-seedling"></i>
+            <h1>Evolução</h1>
+            <div class="card-bar"></div>
+            <p>Estamos a todo momento em busca de auto-aperfeiçoamento em todas as áreas: tecnológicas, pessoais e profissionais. Nos mantendo sempre na melhor versão que podemos ser.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="color-background"></div>
+    <div class="text-background">
+      <div class="text-field">
+        <div class="blinky-row">
+          <h1>Contatos</h1>
+        </div>
+        <p>Ache-nos sempre que for preciso.</p>
+      </div>
+    </div>
+    </div>
+    <div class="parallax-background third-background"></div>
+    <section class="content" id="contact">
+      <div class="inner-content">
+        <h1>Contatos</h1>
+        <div class="splitter">
+          <div class="bar"></div>
+          <i class="fas fa-mobile"></i>
+          <div class="bar"></div>
+        </div>
+        <p>Nos encontre sempre que precisar.</p>
+        <div class="pseudo-card-container">
+          <article class="pseudo-card">
+            <i class="fab fa-whatsapp"></i>
+            <h1>+55 (11) 95358-5965</h1>
+            <div class="card-bar"></div>
+            <i class="fas fa-mail-bulk"></i>
+            <h1>dyego@radioforce.com.br</h1>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="inner-footer">
+        <h1>Nalin &copy 2020. Todos os direitos reservados.</h1>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/be26d3ac3b.js" crossorigin="anonymous"></script>
+</body>
+</html>
